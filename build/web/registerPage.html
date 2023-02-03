@@ -1,0 +1,58 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styleLogin.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="logo">
+            <img id="logoRegister" src="./img/logo.png" alt="">
+        </div>
+        <div class="register">
+            <div class="signUpBox">
+                <form class="signUp" action="SignUpServlett" method="POST">
+                    <h1>Register Form</h1>
+                    <input type="text" name="txtAccount" placeholder="Enter Account">
+                    <input type="password" name="txtPassword" placeholder="Enter Password">
+                    <input type="text" name="txtFullName" placeholder="Enter Full Name">
+                    <input type="text" name="txtPhone" placeholder="Enter Phone Number">
+                    <div class="enterChoice">
+                        <h3 class="choiceTitle">Choose status</h3>
+                        <div class="choice">
+                            <input type="checkbox" value="0" name="status">
+                            <label for="status0">0</label><br>
+                        </div>
+                        <div class="choice">
+                            <input type="checkbox" value="1" name="status">
+                            <label for="status1">1</label><br>
+                        </div>
+                    </div>
+                    <div class="enterChoice">
+                        <h3 class="choiceTitle">Choose role</h3>
+                        <div class="choice">
+                            <input type="checkbox" value="0" name="role">
+                            <label for="role0">0</label><br>
+                        </div>
+                        <div class="choice">
+                            <input type="checkbox" value="1" name="role">
+                            <label for="role1">1</label><br>
+                        </div>
+                    </div>
+                    <input type="submit" value="Register" name="Submit" />
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

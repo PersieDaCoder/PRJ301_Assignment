@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.enterChoice {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+.choice {
+    margin: 5px 10px;
+}
+
+/* LogIn Box */
+.Box {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row;
+    height: 100%;
+    width: 100%;
+}
+
+.leftBox {
+    display: flex;
+    width: 60%;
+    height: 100%;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo {
+    width: 60%;
+}
+
+.title {
+    font-weight: bold;
+    margin: 1rem auto;
+}
+
+.rightBox {
+    flex: 1;
+    background-color: #F2CD5C;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.logIn {
+    display: flex;
+    flex-flow: column;
+    width: 75%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.logIn>input {
+    margin: 10px auto;
+    width: 80%;
+    height: 38px;
+    border: #fff 1px solid;
+    border-radius: 8px;
+}
+
+.logIn>input[type="submit"] {
+    margin: 10px auto;
+    width: 40%;
+}
+
+.logIn>h4 {
+    margin: 1.5% 0;
+}
+
+.logIn>select {
+    float: left;
+}
+
+.logIn>a:link {
+    color: #000;
+}
+
+/* Sign Up */
+
+.register {
+    width: 65%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row;
+    flex:1;
+}
+
+.signUpBox {
+    width: 75%;
+    background-color: #F2CD5C;
+    height: 90%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+}
+
+
+
+.container {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.container > div{
+    height: 100%;
+}
+.logo{
+    display:flex;
+    width: 50%;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#logoRegister {
+    margin: 5% auto;
+    height: auto;
+    width: 75%;
+}
+
+.signUp {
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5% 0;
+}
+
+.signUp>h1{
+    position:relative;
+    top: -1%;
+}
+
+.signUp>input {
+    margin: 10px auto;
+    width: 80%;
+    height: 7.5%;
+    border: #fff 1px solid;
+    border-radius: 8px;
+}
+
+.signUp>input[type="submit"] {
+    margin: 10px auto;
+    width: 40%;
+    height: 8%;
+    transition: 500ms;
+    font-size: 1rem;
+}
+
+.signUp>input[type="submit"]:hover {
+    margin: 10px auto;
+    width: 40%;
+    height: 8%;
+    transform: scale(1.1);
+    transition: 500ms;
+}
+
+
+.signUp>h4 {
+    margin: 1.5% 0;
+}
+
+.signUp>h1 {
+    font-size: 2rem;
+    font-weight: lighter;
+}
+
+.signUp>select {
+    float: left;
+}
